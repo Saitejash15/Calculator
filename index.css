@@ -1,0 +1,59 @@
+h1 {
+                         text-align: center;
+                         font-size: 60px;
+                         color: teal;
+                     }
+             
+                     #calculator-container {
+                         width: 400px;
+                         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+                         margin: auto;
+                         padding: 20px;
+                         border-radius: 15px;
+                         background-color: #f9f9f9;
+                     }
+             
+                     #display {
+                         margin-bottom: 20px;
+                         padding: 10px;
+                         font-size: 30px;
+                         background-color: #e0e0e0;
+                         border-radius: 10px;
+                         text-align: right;
+                         height: 60px;
+                         line-height: 60px;
+                         overflow: hidden;
+                     }
+             
+                     #keyboard {
+                         display: grid;
+                         grid-template-columns: repeat(4, 1fr);
+                         gap: 10px;
+                     }
+             
+                     #keyboard div {
+                         display: flex;
+                         align-items: center;
+                         justify-content: center;
+                         height: 60px;
+                         font-size: 24px;
+                         border-radius: 10px;
+                         cursor: pointer;
+                         user-select: none;
+                         background-color: #ffffff;
+                         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                     }
+             
+                     #keyboard div.black {
+                         background-color: #333;
+                         color: white;
+                     }
+             
+                     #keyboard div.red {
+                         background-color: #ff5555;
+                         color: white;
+                     }
+             
+                     #keyboard div:hover {
+                         background-color: #f0f0f0;
+                     }
